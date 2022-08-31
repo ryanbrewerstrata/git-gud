@@ -1,6 +1,18 @@
-# Objective 1: Identify Core Concepts of Version Control
+# git-gud
+Inspired by that Rust guy's tutorial, [A half Hour to Learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust).
 
-> Keywords are `highlighted`, and are important to know.
+As a theme, You are a datascientist and notice there is bad data
+in the list of Bee Swatter's Midwest Regional 2022 Hi Scores Dataset.
+Specifically, it is missing your top score.
+
+Never petty, simply wanting to shine a light on the situation, download
+the data set, make a change, and push it back so the world can see the Truth!
+
+Truth, after all, still does matter.
+
+## Objective 1: Identify Core Concepts of Version Control
+
+> Keywords are `highlighted`, and are worth understanding.
 
 1. A `repository` is where your code is stored. It can be thought of as a folder or hard drive.
 2. Copies of a repository can live anywhere: on a web server like Github.com or on your hard drive. In other words, copies are `distributed` across one or many physical locations.
@@ -16,7 +28,7 @@
 12. With a change committed, you now want to update the origin. Do this by making a `pull request`.
 13. A pull request is where you ask the owner of another copy of your repository to pull your changes into their copy.  This can happen between any two clones, though typically are requested for the `origin`.
 
-## Terminology from this Objective
+### Terminology To Master
  * `repository`
  * `origin`
  * `clone`
