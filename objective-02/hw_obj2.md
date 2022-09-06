@@ -28,21 +28,52 @@ If you want to make a subfolder to put your git repositories in, you can do that
 
 ### Clone the repo
 
-Go to your repository page on Github and click the green "Code" button, copy the HTTPS information in the drop down
+Go to your repository page on Github and click the green "Code" button, and if you're working in the VM, copy the SSH information in the drop down. For this to work you'll need to have the SSH keys part of the VM setup to be complete. If you're not working on the VM but instead your local machine, copy the HTTPS information.
 
-![image](https://user-images.githubusercontent.com/110128318/188696802-98636026-cdd0-4a89-bd9d-0e2f28976c3a.png)
+![image](https://user-images.githubusercontent.com/110128318/188745854-212ebafb-8b39-4dd0-a004-a47fd36a20dc.png)
 
-Go back to git bash and do `git clone <insert what you copied>`, to paste into git bash it's usually the shift+insert keys, or right click and choose paste. That should download the directory to that folder. You can then `ls` to see the folder is now there, and `cd` into it.
+Go back to git bash and do `git clone <insert what you copied>`. To paste into git bash it's usually the shift+insert keys, or right click and choose paste. That should download the directory to that folder. You can then `ls` to see the folder is now there, and `cd` into it.
 
-![image](https://user-images.githubusercontent.com/110128318/188700395-5d62019d-39a4-43ed-bca2-7cc6e0fcf5fc.png)
-
+![image](https://user-images.githubusercontent.com/110128318/188746188-eacd5bfe-69e2-4253-bbee-2115a11f849d.png)
 
 ## Create a file in 'main'
 
-## Commit, push changes to Github
+In the windows file explorer, find your git repository and create a new text document, call it something like `first_file.txt`. Inside it put some text. Save it. We're going to track these changes with git and push it up to Github.
 
-## Create a branch in git and make another file
+![image](https://user-images.githubusercontent.com/110128318/188741778-006742c3-887b-41d3-91b8-90dc634ca2c7.png)
 
-## Commit, push changes to Github, see the other branch in Github
+## Commit; push changes to Github
+
+In git bash or your terminal, navigate back to your repository if necessary. Then we're going to run `git add first_file.txt`. This will tell git to stage that file to be committed. You have to add the files to be staged first, or else it won't commit the changes you made to that file. If you have many files and you want to add them all, you can use `git add .`, where the period signifies every file in that directory.
+
+Now we're ready to commit. Run `git commit -m 'this is my first commit'`. The -m stands for 'message', and it's one of the options available to the `git commit` command line function, telling git that the string after the -m is a message to describe the commmit. Commit messages are important to understand what was changed in that commit, always add a message. You should see a message that 1 file was changed with 1 insertion.
+
+That change has been saved with a commit on your VM (or wherever you're working). Where it is NOT saved is github... yet. Commits in your repository need to be pushed up to Github explicitly. This is done with `git push`. If you run `git push` it will work, but I also want to point out that we can be more explicit with the command, to tell git where we're trying to push, and what branch (we'll go over branches next) we want to push. With that in mind, run `git push origin main`. This tells git to push to `origin`, which is the default alias of your github repository, and it tells git to push the `main` branch, which is the branch we're currently working on. By default, the first branch created in a Github repository is always called the `main` branch.
+
+If you have your SSH keys setup and you used the SSH information to clone, it should push automatically. If you're using a local machine and HTTPS, you'll have to likely give your credentials (or set up a credential manager) to successfully push to Github.
+
+![image](https://user-images.githubusercontent.com/110128318/188746496-ffd2abe7-ff21-4ae5-b3ac-aa007c39a907.png)
+
+Now if you go to Github and find your repository (refresh if needed), you'll see your commit and file in the repository.
+
+![image](https://user-images.githubusercontent.com/110128318/188746678-e3625f49-8cc2-498c-8504-248b287ca7d1.png)
+
+## Create a branch in git and make another file, commit, push, see new branch in github
+
+Now we're going to create a new branch. A branch is essentially a parrallel (code) universe. If we create a new branch, it's going to be a copy of what `main` currently looks like. We can then make changes and save them as commits in the new branch without affecting `main`. This is really useful when collaborating with others so that you're not overwriting other people's work. Remember, when you're collaborating with other people, you should **always** create a new branch to do your work in, and **never** directly overwrite the `main` branch.
+
+We're going to create a branch called `add-file`. Branch names are arbitrary and descriptive, just call them whatever you want to make it easy for yourself and others to know what the purpose of the branch is. We're going to add another simple text file to the repository, so `add-file` seems appropriate. To do that, run `git branch add-file`, which creates the branch. Then run `git checkout add-file` which switches from the `main` branch to the `add-file` branch. As a shortcut, you might see people just write `git checkout -b add-file` which combines the two steps, creating and checking it out in the same command. It doesn't matter which you use.
+
+You'll see in git bash that the blue indicator text at the end switched from `main` to `add-file`.
+
+![image](https://user-images.githubusercontent.com/110128318/188747858-1be2137b-701d-45c5-ae19-0bbbcc6680e3.png)
+
+Now go add another text file. Call it `second_file.txt` and put in the text `this is my second file, made in the add-file branch`. And now go through the same steps again.
+
+`git add .`
+
+`git commit -m 'adding a second text file'`
+
+`git push origin add-file`
 
 ## Create pull request
