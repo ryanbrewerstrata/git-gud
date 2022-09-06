@@ -76,4 +76,23 @@ Now go add another text file. Call it `second_file.txt` and put in the text `thi
 
 `git push origin add-file`
 
+![image](https://user-images.githubusercontent.com/110128318/188754815-6d795387-5a03-48d8-8fc5-05f5868d21fb.png)
+
+And now if we go back to our repository we can see our second branch in the branch drop down, and when we switch to it we can see the new file
+
+![image](https://user-images.githubusercontent.com/110128318/188754979-9bcb83f8-4372-446e-b06a-dd1c6b12200b.png)
+
+
 ## Create pull request
+
+Finally, let's say we accomplished what we want with the second branch and we want to merge our changes back into the `main` branch. That can be done with a pull request, initiated on the Github website.
+
+![image](https://user-images.githubusercontent.com/110128318/188755224-6c2f37cf-695e-4bbf-8415-cc39e2f1fdfa.png)
+
+When you open the pull request you can add a description of what the pull request is, helpful if the maintainer of the project might not know what you're trying to merge in. You can also tag people as code reviewers or assign the pull request to someone. If you're the project owner and you're satisfied with the pull request, you can go ahead and merge the pull request, after which you'll see that if you go back to the main branch, it now has the second text file.
+
+![image](https://user-images.githubusercontent.com/110128318/188755511-b7ae83ad-34ee-4463-b5f8-21544d90bf2b.png)
+
+After merging, you can delete the branch in Github if you want to keep the project cleaner and more organized, since you presumably don't need that branch anymore.
+
+Finally, if you want those changes reflected on your local copy, you'll have to run `git pull` on the command line to pull down all the latest changes that happened on Github, in this case, the merge that occured from the pull request.
