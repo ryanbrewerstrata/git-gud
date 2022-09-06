@@ -32,7 +32,7 @@ Go to your repository page on Github and click the green "Code" button, copy the
 
 ![image](https://user-images.githubusercontent.com/110128318/188696802-98636026-cdd0-4a89-bd9d-0e2f28976c3a.png)
 
-Go back to git bash and do `git clone <insert what you copied`, to paste into git bash it's usually the shift+insert keys, or right click and choose paste. That should download the directory to that folder. You can then `ls` to see the folder is now there, and `cd` into it.
+Go back to git bash and do `git clone <insert what you copied>`, to paste into git bash it's usually the shift+insert keys, or right click and choose paste. That should download the directory to that folder. You can then `ls` to see the folder is now there, and `cd` into it.
 
 ![image](https://user-images.githubusercontent.com/110128318/188700395-5d62019d-39a4-43ed-bca2-7cc6e0fcf5fc.png)
 
