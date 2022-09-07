@@ -1,53 +1,37 @@
 # Objective 1: Identify Core Concepts of Version Control
 
-> Keywords are `highlighted`, and are important to know.
+> Core concepts are `highlighted` below.
 
-1. A `repository` is where your code is stored. It can be thought of as a folder or hard drive.
-2. Copies of a repository can live anywhere: on a web server like Github.com or on your hard drive. In other words, copies are `distributed` across one or many physical locations.
-3. In modern development, one of these locations is referred to as the `origin`. This is arbitrary, but is most likely the repository on github.com or bitbucket.org. Though the copy on your hard drive can also be designated as the `origin`.
-4. Referring to a repository the `origin` is also just a convention.  And this means contributors to the repository agree to treat it as the master copy.
+1. A `repository` is where your code is stored. A `"repo"` can be thought of as a special folder on your machine.
+2. Copies of a `repository` can live anywhere: in the cloud like Github.com or on your hard drive. In other words, copies are distributed across one or many physical locations. They are connected.
+3. In modern development, one of these connected locations is referred to as the `origin`. This designation is arbitrary, but is most likely a repository in the cloud.
+4. Referring to a `repository` as the `origin` is also just a convention.  It means maintainers agree it is the master copy.
 5. Copying a repository is known as `cloning`. You can refer to your copy as your `local workspace`.
-6. There's another, advanced way of cloning known as `forking`, but we'll discuss that another time.
-7. Having a `clone` is a great way to backup your code. If one machine dies, the code does not!
-8. But there's more to your repository. You can also save every change you make.
-9. Changes are segmented by `commits`.
-10. Literally change one or many files in the repo.  By `committing` the changes, you create a state your can return to, should the need arise.
-11. Some developers commit often. The choice is up to you. Generally commit at least once a day, just incase you spill coffee on your laptop tomorrow.
-12. With a change committed, you now want to update the origin. Do this by making a `pull request`.
-13. A pull request is where you ask the owner of another copy of your repository to pull your changes into their copy.  This can happen between any two clones, though typically are requested for the `origin`.
+6. A `clone` is complete copy of your code and its history. It's a great backup. If one machine dies, the code does not!
+7. Changes to your code are contained in `branches`.
+8. Branches are considered short-lived, and should be deleted after the code is merged into the `main` branch.
+9. Save your code changes by first `staging` the files, then making a `commit` to your local `repo`.
+10. Commits are annotated with a description of your change.
+11. It's not wrong or right to commit often or infrequently. Just know coffee can be spilt on your laptop at any time.
+12. A codebase's history of commits can be reviewed, and any commit can be restored.
+13. With a change committed to your local repo, you now want to `push` your branch to the origin.
+14. Once your branch lives at the origin, others can see it and `pull` into their local workspace, if they wanted.
+15. When ready, your code changes can be merged into the main branch.
+16. Typically, repo's main branch is protected, and cannot be changed without an approved `pull request`.
+17. A pull request is a formal request to the repo maintainers to review and approve your changes.
+18. Once approved, your branch can be `merged` into main, and deleted.
+
 
 ## Terminology from this Objective
- * `repository`
- * `origin`
- * `clone`
- * `local workspace`
- * `stage`
- * `commit` A noun, and a verb. To bookmark the state of your code.
-
-#### Rough Draft Notes for this objective
-* Should we discuss branching now or later? End by introducing it? But develop it in the next objective?
-
-## Objective 2: Make a Significant change to Software
-#### Rough Draft Notes for this objective
-* Exercise: clone a repo, create a file, stage it, commit it. See the change on github.com
-* explain branching. Always branch. Explain PR.
-* Exercise: branch, add another file, stage it, commit it, push to origin, make a PR.
-* Make a PR, find a reviewer, merge your own code
-* Dive deeper into a commit: the anatomy of a nice commit message
-
-## Objective 3: Peacefully Resolve a Conflict
-#### Rough Draft Notes for this objective
-
-## Objective 4: Restore Old Code
-#### Rough Draft Notes for this objective
-* discuss squashing? The beauty of helpful commit messages.
-* Finding a working version through helpful log messages
-* The idea of main, and tags.
-* The camp that says CI/CD, don't branch--but that's for another time.
- 
-
-## General Brainstorming
- * Can I create a GitHub Action users can invoke that forces a Conflict?
- * Put each Objective into its own HTML file. Have a menu for users to click to it.
- * Host this tutorial on GitHub Pages.
- * Do the commands in a callout, like that Rust guy does.
+ * `repository (/repo)` Where software is stored, maintained, and developed.
+ * `origin` The original repo, owned by the project maintainers 
+ * `clone` A copy of a repo and its entire history
+ * `local workspace` Your local copy of a repo. Your edits won't affect the repo until they have been staged and committed.
+ * `branch` A named space for your changes and commits, typically aligned with a feature or bug fix
+ * `main` A special branch. The origin's main branch is what gets deployed, and is often protected from unapproved changes.
+ * `stage` File changes can be selected or deselected for saving in a commit. This is called staging.
+ * `commit` Saves your staged file changes to the repo. Has a description of the change. Once committed, your changes within the commit can be seen by others and restored.
+ * `push` Your local branch (with its changes committed) will be pushed to the origin
+ * `pull` Your local repo can pull branches (and commits) from the origin to get updates
+ * `pull request (/PR)` Asking the maintainers of the origin to review and merge your branch's changes into main
+ * `merge` After a pull request is approved, it is merged into the main branch
