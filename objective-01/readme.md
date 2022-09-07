@@ -1,4 +1,6 @@
-# Objective 1: Identify Core Concepts of Version Control
+![image](https://user-images.githubusercontent.com/87713850/188872399-e949bf16-3468-4062-a870-ad6db6395332.png)
+
+# Objective 1: Identify Core Concepts of Software Development with Git
 
 > Core concepts are `highlighted` below.
 
