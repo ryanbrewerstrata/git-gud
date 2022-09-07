@@ -10,7 +10,7 @@ Go to github.com, log in, and and create a new repository (should be a button ei
 
 ## Clone the repository to your desktop
 
-Next, we have to "clone" that repository down to your desktop, which essentially means downloading it and letting git know that the copy on Github.com is the "origin" we can send changes to. Open git bash (in your VM or windows local) or a terminal (on macOS). For reference, I'm doing this on my VM.
+Next, we have to `clone` that repository down to your desktop, which essentially means downloading it and letting git know that the copy on Github.com is the `origin` we can send changes to. Open git bash (in your VM or windows local) or a terminal (on macOS). For reference, I'm doing this on my VM.
 
 ### Navigate to the spot to put your repo
 
@@ -18,7 +18,7 @@ Navigate to a place where you want to put the repository. This should be somepla
 
 ![image](https://user-images.githubusercontent.com/110128318/188698350-1f8b34bf-c44d-48c6-9a44-4ab5286965b5.png)
 
-If this does not work because your $HOME variable isn't set up for whatever reason, you can move to a folder directly by typing the full location. If you don't know what your username is, you can cd to the users folder with `cd /c/Users`, then if you do ls (stands for "list") you can see the files in folders in that directory, and then use `cd <your username>` to move into the folder you want.
+If this does not work because your `$HOME` variable isn't set up for whatever reason, you can move to a folder directly by typing the full location. If you don't know what your username is, you can cd to the users folder with `cd /c/Users`, then if you do ls (stands for "list") you can see the files in folders in that directory, and then use `cd <your username>` to move into the folder you want.
 
 ![image](https://user-images.githubusercontent.com/110128318/188699049-755ea75c-f8e8-43b4-a541-085c4a20d1fe.png)
 
