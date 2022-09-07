@@ -5,9 +5,3 @@
 * The idea of main, and tags.
 * The camp that says CI/CD, don't branch--but that's for another time.
  
-
-## General Brainstorming
- * Can I create a GitHub Action users can invoke that forces a Conflict?
- * Put each Objective into its own HTML file. Have a menu for users to click to it.
- * Host this tutorial on GitHub Pages.
- * Do the commands in a callout, like that Rust guy does.

@@ -3,7 +3,7 @@
 *A Need-to-Know Guide to GitHub for the Non Engineer.*
 
 
-## Why do I Need to Know about GitHub?
+## Why Learn Git & GitHub?
 
 GitHub lets teams create and manage modern software projects. 
 It uses a "version control" technology called `git`.
@@ -19,13 +19,7 @@ Chaos we need not endure!
 
 ## How can I use this guide?
 
-Click into the objective folders in this project!
+Click into the objective folders in this project.
+
 If you're reading this on GitHub, you'll automatically see the `readme.md` file printed on screen.
 Read that, then complete the exercises.
-
-
-## TODOs
-
-1. Grant access to #beeswarmers folk: https://github.com/ryanbrewerstrata/git-gud/settings/access
-2. Dry Run
-3. Intro paragraph
