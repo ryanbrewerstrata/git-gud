@@ -21,7 +21,7 @@
 15. Typically, a `repo's` `main` branch is protected, and cannot be changed without an approved `pull request`.
 16. A `pull request` is a formal request to the repo maintainers to review and approve your changes.
 17. Once approved, your branch can be `merged` into `main`, and deleted.
-18. Your changes will be seen by users once the `main` branch is `deployed` in the next release.
+18. Your changes will be seen by users once the `main` branch is deployed in the next release.
 
 
 ## Terminology from this Objective
@@ -37,4 +37,3 @@
  * `pull` Your local repo can pull branches (and commits) from the origin to get updates
  * `pull request (/PR)` Asking the maintainers of the origin to review and merge your branch's changes into main
  * `merge` After a pull request is approved, it is merged into the main branch
- * `deployment` The act of releasing the main branch to our users
