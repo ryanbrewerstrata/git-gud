@@ -63,3 +63,16 @@ Truth, after all, still does matter.
  * Put each Objective into its own HTML file. Have a menu for users to click to it.
  * Host this tutorial on GitHub Pages.
  * Do the commands in a callout, like that Rust guy does.
+
+# From Slack - put into 9-14-22 Talk
+For our next git chat, is there anything in particular you'd like to go over?  RSVP if you like, and I can set up a poll if it makes sense.  Thanks!
+Our Git Gud repo has 2 more objectives and Draper thought of one:
+1. How to resolve a Merge Conflict
+2. How to Restore a previous Commit
+3. How to link a Pull Request to a Jira Ticket
+
+Anything else that might be helpful?
+
+Meredith Dodd
+4.  How to send pull requests to others for approval and what to do when you’re approving pull requests. I think we touched on it slightly last week but it might be good to go into more depth. For instance, your pull requests come with lovely notes at the top and I don’t know how to do that!
+Also maybe best practices for naming and deleting branches?
