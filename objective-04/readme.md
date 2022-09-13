@@ -6,10 +6,13 @@
 
 (Pic of conflict in github)
 
-The red text indicates the branch cannot automatically be merged.
+The red text indicates a problem, and that you cannot merge your code.
 
-Git is comparing your changes to its historical origins. 
-That is to say it compares what was and what is, both according to your branch.
-But if "what was" has now changed, say by someone else's hand,
-then git flags this as a `merge conflict`, and doesn't let you merge your branch until it's resolved.
+What you're seeing is a `merge conflict`. But what is this?
 
+Git requires that everyone agrees on the past.
+It does this by remembering how each branch begins and ends,
+and comparing beginnings.
+
+That is to say if your branch has a line that began in main as "x", and when you go to merge it
+main now says that line is "y", you get a `merge conflict`.
