@@ -23,7 +23,7 @@ are its first impression, so make them with care! As an example, look at the fol
 It has several qualities that come together to make it slap.
 
 This `pull request` aimed for a clear & concise `title`, and fired off bullet points
-in the `description` to hit some specifics. Clear, brief comments help guide the reviewer,
+in the `description` to hit some specifics. Clear, brief comments help guide the reviewer
 and make the project history (`git log`) easier to scan.
 
 A picture might be even better!  You can add pics to your PR's description
@@ -35,7 +35,7 @@ straight from your clipboard, like in the 2nd screenshot below. ("Tempo 5.8 Chip
 
 ![img_5.png](img_5.png)
 
-![img_7.png](img_7.png)
+![img_14.png](img_14.png)
 
 > Note: a PR title won't link it to Jira. To link your work to Jira, you need
 > a Jira Ticket ID to appear somewhere in the branch name.  See [Objective 2](../objective-02/readme.md#how-to-create-a-well-named-branch) for details.
