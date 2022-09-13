@@ -1,4 +1,6 @@
 # git-gud
+> The Main branch changed this line after feature/test-conflict was created!
+
 Inspired by that Rust guy's tutorial, [A half Hour to Learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust).
 
 As a theme, You are a datascientist and notice there is bad data
