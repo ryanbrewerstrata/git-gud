@@ -75,15 +75,15 @@ Since we're only pretending you authored this branch, but are
 asking you to title and describe the PR, you'll of course need
 to unearth its purpose.
 
-Scroll down to see the changes in this branch.
+From your PR page on GitHub, scroll down to see the changes in this branch.
 
 Now that you know what's changed, take a minute to think about
 a clear but brief title for the change.  If you feel more details
 would help, place those in the description block.
 
-![img_11.png](img_11.png)
-
 ![img_10.png](img_10.png)
+
+![img_11.png](img_11.png)
 
 
 ## Add a Reviewer
