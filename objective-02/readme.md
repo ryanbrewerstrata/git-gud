@@ -84,6 +84,20 @@ And now if we go back to our repository we can see our second branch in the bran
 ![image](https://user-images.githubusercontent.com/110128318/188754979-9bcb83f8-4372-446e-b06a-dd1c6b12200b.png)
 
 
+### How to Create a Well Named Branch
+
+Running `git checkout -b rbrewer/GUD-1` will create and checkout a new branch named "rbrewer/GUD-1". 
+   * *"You probably won't use my name in your branches." &mdash;Ryan B.* 
+
+There's some magic in that branch name, explained below: 
+
+![anatomy-of-a-well-named-branch.png](anatomy-of-a-well-named-branch.png)
+
+> **Putting a Jira ticket ID in your branch name links your work to Jira!!**
+> For example BEN-4030 would link to [this ticket on our Compare app](https://jira.sdt.local/browse/BEN-4030).
+
+Your team has branch naming conventions, sometimes with even more magic. Regardless, it's important they be followed.
+
 ## Create pull request
 
 Finally, let's say we accomplished what we want with the second branch and we want to merge our changes back into the `main` branch. That can be done with a pull request, initiated on the Github website.

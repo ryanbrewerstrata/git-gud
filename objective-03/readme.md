@@ -17,26 +17,21 @@ Consistency is a prized attribute of maintainable software, and the `PR code rev
 to keep it.
 
 **In this walkthrough, we're going to:**
-1. Create a well named branch that also links our work to Jira
-2. Make some (trivial) code changes
-3. Push our changes up to the origin
-4. Make a highly detailed PR
-
-## Create a Well Named Branch
-
-> TODO move to objective 2, a tips and tricks section?
-
-1. Run `git checkout -b rbrewer/GUD-1` to create and checkout a new branch. 
-   * *Use your own name, or your cat's.* 
-
-![img_4.png](img_4.png)
-
-> **Putting a Jira ticket ID in your branch name links your work to Jira!!**
-> For example BEN-4030 would link to [this ticket on our Compare app](https://jira.sdt.local/browse/BEN-4030).
+1. Checkout an existing, never-before-merged branch
+2. Make a highly detailed PR
+3. Solicit a reviewer
+4. Discuss our code change
+5. Put on our Reviewer hat and approve the change
 
 
- 
+## Prepare a Branch to PR
 
+If you haven't already, clone the git gud repo so you have a copy on your machine.
+
+1. Run `git clone git@github.com:ryanbrewerstrata/git-gud.git`
+   * Not working? Try `git clone https://github.com/ryanbrewerstrata/git-gud.git`
+   * Still not working? Breakout room.
+2. Run `git checkout origin/objective-3-demo` 
 
 
 #### Rough Draft Notes for this objective
