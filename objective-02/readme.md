@@ -83,15 +83,14 @@ And now if we go back to our repository we can see our second branch in the bran
 
 ![image](https://user-images.githubusercontent.com/110128318/188754979-9bcb83f8-4372-446e-b06a-dd1c6b12200b.png)
 
-
 ### How to Create a Well Named Branch
 
-Running `git checkout -b rbrewer/GUD-1` will create and checkout a new branch named "rbrewer/GUD-1". 
+Running `git checkout -b rbrewer/GUD-1-well-named-branches` will create and checkout a new branch named "rbrewer/GUD-1-well-named-branches". 
    * *"You probably won't use my name in your branches." &mdash;Ryan B.* 
 
-There's some magic in that branch name, explained below: 
+There's some magic in that branch name, explained below:
 
-![anatomy-of-a-well-named-branch.png](anatomy-of-a-well-named-branch.png)
+![img.png](img.png)
 
 > **Putting a Jira ticket ID in your branch name links your work to Jira!!**
 > For example BEN-4030 would link to [this ticket on our Compare app](https://jira.sdt.local/browse/BEN-4030).
