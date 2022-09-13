@@ -1,11 +1,11 @@
-# Objective 3: Create a Highly Detailed Pull Request
+# Objective 3: Write a Pull Request that Won't Push Others Away
 
 As mentioned in the last objective, a `pull request (/PR)` is a formal request to make changes
 to the main codebase (aka the `origin`).  There are often two parties involved in
 pull requests: the contributor, and reviewer(s).
 
 Contributors `make a PR`. However, they don't simply knock on the origin's door,
-plunk down a phonebook of code, and skip off on their merry way.
+plunk down a phonebook of code, shake their tired arms and walk away.
 
 The `contributor` solicits reviewers for their `pull request`,
 and strives to make their contribution digestible via concise description,
@@ -14,9 +14,32 @@ and possibly screenshots.
 Software projects often enumerate `coding standards`. The `reviewer` is responsible for
 upholding these `standards`. This can be in terms of patterns, naming conventions, logic, etc.
 Consistency is a prized attribute of maintainable software, and the `PR code review` is where
-to keep it.
+this can be upheld.
 
-**In this walkthrough, we're going to:**
+
+## Title and Describe PRs with Style
+
+As an example, look at the following image.
+It has several qualities that come together to make it slap.
+
+This `pull request` aimed for a clear & concise `title`, and fired off bullet points
+in the `description` block to hit some specifics.
+
+Not only are these helpful for the reviewer, they make the project history (`git log`)
+easier to scan.
+
+A picture often works even better.  You can add pics to your PR Description
+straight from your clipboard, like in the 2nd screenshot below ("Tempo 5.8 Chips").
+
+![img_5.png](img_5.png)
+
+![img_6.png](img_6.png)
+
+
+## Walk Through
+> **Prerequisites** You'll need a strata github account to complete the walk through.
+
+**In this walk through we're going to:**
 1. Checkout an existing, never-before-merged branch
 2. Make a highly detailed PR
 3. Solicit a reviewer
@@ -24,16 +47,37 @@ to keep it.
 5. Put on our Reviewer hat and approve the change
 
 
-## Prepare a Branch to PR
+### Prepare a Branch to PR
+Fork and clone the Git Gud repo.
 
-If you haven't already, clone the git gud repo so you have a copy on your machine.
+1. Fork it on GitHub.com.
+2. Download/clone it.
+1. Run `git clone git@github.com:[yourgithubusername]/git-gud.git`
+   * Not working? Try `git clone https://github.com/[yourgithubusername]/git-gud.git`
+   * Still not working? Breakout room or try later
+2. Run `git checkout objective-3-demo`
 
-1. Run `git clone git@github.com:ryanbrewerstrata/git-gud.git`
-   * Not working? Try `git clone https://github.com/ryanbrewerstrata/git-gud.git`
-   * Still not working? Breakout room.
-2. Run `git checkout feature/objective-3-demo` 
+> For the sake of this demo, **we're going to pretend
+> you created this branch, and are fully aware of the changes within it!**
+
+### Create the PR
+From GitHub.com, click xxx to make the pr.
+
+### Write a Title and Description for the PR
+
+Since we're only pretending you authored this branch, but are
+asking you to title and describe the PR, you'll of course need
+to unearth its purpose.
+
+Scroll down to see the change.
+
+(pic)
+
+Now that you know what's changed, take a minute to think about
+a clear but brief title for the change.  If you feel more details
+would help, place those in the description block.
+
+(pic)
 
 
-![img_3.png](img_3.png)
 
-![img_1.png](img_1.png)
