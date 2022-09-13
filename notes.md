@@ -1,5 +1,5 @@
 # git-gud
-> The main branch got this line edited after the conflict branch was created!
+> This line didn't exist when the branch was created off main
 
 Inspired by that Rust guy's tutorial, [A half Hour to Learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust).
 
