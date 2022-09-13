@@ -17,19 +17,18 @@ Consistency is a prized attribute of maintainable software, and the `PR code rev
 this can be upheld.
 
 
-## Title and Describe PRs with Style
-
+## Title and Describe PRs with Care
 As an example, look at the following image.
 It has several qualities that come together to make it slap.
 
 This `pull request` aimed for a clear & concise `title`, and fired off bullet points
-in the `description` block to hit some specifics.
+in the `description` to hit some specifics.
 
 Not only are these helpful for the reviewer, they make the project history (`git log`)
 easier to scan.
 
-A picture might be even better!  You can add pics to your PR Description
-straight from your clipboard, like in the 2nd screenshot below ("Tempo 5.8 Chips").
+A picture might be even better!  You can add pics to your PR's description
+straight from your clipboard, like in the 2nd screenshot below. ("Tempo 5.8 Chips".)
 
 **How to copy a screenshot to your clipboard**
 * Windows: `win+shift+s` - crop a portion of your screen with your mouse
@@ -40,7 +39,7 @@ straight from your clipboard, like in the 2nd screenshot below ("Tempo 5.8 Chips
 ![img_7.png](img_7.png)
 
 
-## Walk Through
+# Walk Through
 > **Prerequisites** You'll need a strata github account to complete the walk through.
 
 **In this walk through we're going to:**
@@ -51,7 +50,7 @@ straight from your clipboard, like in the 2nd screenshot below ("Tempo 5.8 Chips
 5. Put on our Reviewer hat and approve the change
 
 
-### Prepare a Branch to PR
+## Prepare a Branch to PR
 Fork and clone the Git Gud repo.
 
 1. Fork it on GitHub.com.
@@ -64,10 +63,12 @@ Fork and clone the Git Gud repo.
 > For the sake of this demo, **we're going to pretend
 > you created this branch, and are fully aware of the changes within it!**
 
-### Create the PR
+## Create the PR
 From GitHub.com, click xxx to make the pr.
 
-### Write a Title and Description for the PR
+(pic)
+
+## Write a Title and Description for the PR
 
 Since we're only pretending you authored this branch, but are
 asking you to title and describe the PR, you'll of course need
@@ -83,5 +84,34 @@ would help, place those in the description block.
 
 (pic)
 
+### Add a Reviewer
+
+Select one or more reviewers.  This triggers an email giving the reviewer a link to your PR, with the polite request to come review it.
+
+> **Not getting reviews?** Remember, everyone is busy with their own work, but also emails are easily missed. Use your own discretion when deciding to remind someone of your PR.
+
+![img_8.png](img_8.png)
+
+### Merge Your PR After Approval
+
+![img_9.png](img_9.png)
+
+## How to Review a PR
+
+### Wearing the Reviewer's Hat
+
+You'll inevitably be asked to review code,
+whether you feel qualified or not.
+Here are some helpful pointers for executing this responsibly.
+
+1. **Protect your project's conventions.** Should SQL SELECT statements be one-liners? Are filenames kebab cased? No one likes a nitpick, but your team likely has some standards it wants to follow! A clean project is easier to maintain.
+2. **Ask clarifying questions.** GitHub allows you to discuss the PR from a distance using the general comments box. However, you can also comment on specific lines of code simply by clicking them.
+3. **Respect everyone's time.** You aren't expected to drop what you're doing and immediately review a PR. However, it's good not to make the author wait a half-week either! Just being mindful will go a long way.
+4. **Respect everyone's ability.** Everyone is at a different stage in their career.  If you need to scribble red ink all over a PR, strive to do it in a way that promotes growth.
+5. **What if you're not qualified?** Ask more questions, or possibly pass the baton to another reviewer.  Trusting your colleagues is also worth consideration, and you may decide some approvals don't require your complete understanding.
 
 
+
+## Citations
+* 
+* trust - old ci/cd guy frank, uncle bob?, 
