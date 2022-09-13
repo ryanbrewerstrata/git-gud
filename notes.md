@@ -1,4 +1,6 @@
 # git-gud
+> This line didn't exist when the branch was created off main
+
 Inspired by that Rust guy's tutorial, [A half Hour to Learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust).
 
 As a theme, You are a datascientist and notice there is bad data
