@@ -28,12 +28,16 @@ in the `description` block to hit some specifics.
 Not only are these helpful for the reviewer, they make the project history (`git log`)
 easier to scan.
 
-A picture often works even better.  You can add pics to your PR Description
+A picture might be even better!  You can add pics to your PR Description
 straight from your clipboard, like in the 2nd screenshot below ("Tempo 5.8 Chips").
+
+**How to copy a screenshot to your clipboard**
+* Windows: `win+shift+s` - crop a portion of your screen with your mouse
+* Mac: `cmd+ctrl+shift+4` - crop a portion of your screen with your mouse
 
 ![img_5.png](img_5.png)
 
-![img_6.png](img_6.png)
+![img_7.png](img_7.png)
 
 
 ## Walk Through
