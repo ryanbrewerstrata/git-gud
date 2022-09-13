@@ -18,8 +18,8 @@ this can be upheld.
 
 
 ## Describe PRs with Care
-First impressions are a time-honored assessment measure. Your PRs title and description
-are it's first impression, so make them with care!
+First impressions are a time-honored assessment strategy. Your PR's title and description
+are its first impression, so make them with care!
 
 As an example, look at the following image.
 It has several qualities that come together to make it slap.
