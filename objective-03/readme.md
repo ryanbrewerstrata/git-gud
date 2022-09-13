@@ -112,5 +112,4 @@ Here are some helpful pointers for executing this responsibly.
 
 
 ## Citations
-* 
 * trust - old ci/cd guy frank, uncle bob?, 
