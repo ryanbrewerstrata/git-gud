@@ -29,7 +29,7 @@
  * `origin` The original repo, owned by the project maintainers 
  * `clone` A copy of a repo and its entire history
  * `local workspace` Your local copy of a repo. Your edits won't affect the repo until they have been staged and committed.
- * `branch` A named space for your changes and commits, typically aligned with a feature or bug fix
+ * `branch` A named space for your changes and commits, typically aligned with a feature or bug fix.
  * `main` A special branch. The trunk. The origin's main branch is what gets deployed, and is often protected from unapproved changes. Most branches stem off main.
  * `stage` File changes can be selected or deselected for saving in a commit. This is called staging.
  * `commit` Saves your staged file changes to the repo. Has a description of the change. Once committed, your changes within the commit can be seen by others and restored.
@@ -37,3 +37,6 @@
  * `pull` Your local repo can pull branches (and commits) from the origin to get updates
  * `pull request (/PR)` Asking the maintainers of the origin to review and merge your branch's changes into main
  * `merge` After a pull request is approved, it is merged into the main branch
+
+## Tips & Tricks
+ * Your code changes can be linked to JIRA tickets!  You do this by creating a branch with the Jira ticket id.  Eg,

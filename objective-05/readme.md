@@ -1,4 +1,4 @@
-# Objective 5: Restore Old Code
+# Objective 6: Restore Old Code
 #### Rough Draft Notes for this objective
 * discuss squashing? The beauty of helpful commit messages.
 * Finding a working version through helpful log messages
