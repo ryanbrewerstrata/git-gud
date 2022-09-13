@@ -24,15 +24,16 @@ to keep it.
 
 ## Create a Well Named Branch
 
+> TODO move to objective 2, a tips and tricks section?
+
 1. Run `git checkout -b rbrewer/GUD-1` to create and checkout a new branch. 
    * *Use your own name, or your cat's.* 
 
 ![img_4.png](img_4.png)
 
 > **Putting a Jira ticket ID in your branch name links your work to Jira!!**
-> For example BEN-4050 would link to [this ticket on our Compare app](https://jira.sdt.local/browse/BEN-4050).
+> For example BEN-4030 would link to [this ticket on our Compare app](https://jira.sdt.local/browse/BEN-4030).
 
-## Make a code change
 
  
 
