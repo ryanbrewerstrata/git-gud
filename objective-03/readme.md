@@ -19,16 +19,12 @@ this can be upheld.
 
 ## Describe PRs with Care
 First impressions are a time-honored assessment strategy. Your PR's title and description
-are its first impression, so make them with care!
-
-As an example, look at the following image.
+are its first impression, so make them with care! As an example, look at the following image.
 It has several qualities that come together to make it slap.
 
 This `pull request` aimed for a clear & concise `title`, and fired off bullet points
-in the `description` to hit some specifics.
-
-Clear, brief comments help guide the reviewer, and make the project history (`git log`)
-easier to scan.
+in the `description` to hit some specifics. Clear, brief comments help guide the reviewer,
+and make the project history (`git log`) easier to scan.
 
 A picture might be even better!  You can add pics to your PR's description
 straight from your clipboard, like in the 2nd screenshot below. ("Tempo 5.8 Chips".)
