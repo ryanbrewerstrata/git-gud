@@ -87,7 +87,7 @@ would help, place those in the description block.
 
 
 ## Add a Reviewer
-Select one or more reviewers.  This triggers an email giving the reviewer a link to your PR, with the polite request to come review it.
+Select one or more reviewers.  This immediately sends each reviewer an email with a link to your PR and request for review.
 
 > **Not getting reviews?** Remember, everyone is busy with their own work, but also emails are easily missed. Use your own discretion when deciding to remind someone of your PR.
 
