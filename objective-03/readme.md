@@ -142,4 +142,5 @@ Here are some helpful pointers for executing this responsibly.
 
 
 ## Citations
-* trust - old ci/cd guy frank, uncle bob?, 
+* Good habits - [Atlassian blog](https://www.atlassian.com/blog/git/written-unwritten-guide-pull-requests)
+* Trusting peers - [todo]()
