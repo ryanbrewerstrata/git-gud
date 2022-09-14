@@ -103,9 +103,16 @@ clicking on the line of code.
 
 For more details on how to review, see [below](#wearing-the-reviewers-hat).
 
-(pic)
+> If you just want to comment on a single line of code, click "Add a single comment".
 
-(pic)
+> If you comment by clicking "Start a Review", GitHub expects you will be leaving
+> many comments, and submitting them all at once.  It's a way to batch a bunch
+> of notes together.  Click "Finish Review" to close your batch. **Comments in your "review"
+> won't be visible to anyone until you Finish it!**
+
+![img_16.png](img_16.png)
+
+![img_17.png](img_17.png)
 
 ## Merge Your PR After Approval
 Once your discussions have been resolved, and your code reviewers have given their approval,
