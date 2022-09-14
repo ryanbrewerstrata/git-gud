@@ -18,7 +18,7 @@ That is to say if your branch has a line that began in main as "x",
 and when you attempt to merge it was changed to "y",
 you'll get a `merge conflict`.
 
-![img.png](img.png)
+![img_1.png](img_1.png)
 
 
 ## Resolving a conflict in GitHub
