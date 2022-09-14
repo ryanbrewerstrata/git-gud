@@ -43,7 +43,7 @@ straight from your clipboard, like in the 2nd screenshot below. ("Tempo 5.8 Chip
 
 
 # Walk Through
-> **Prerequisites** You'll need a strata github account to complete the walk through.
+> **Prerequisites** You'll need a strata GitHub account to complete the walk through.
 
 **In this walk through we're going to:**
 1. Fork Git-Gud and find a never-before-merged branch
@@ -111,7 +111,12 @@ For more details on how to review, see [below](#wearing-the-reviewers-hat).
 Once your discussions have been resolved, and your code reviewers have given their approval,
 you can merge your code.
 
+Once merged, delete your branch from the origin. GitHub can be configured to do this automatically,
+though you'll still need to delete your local branch manually.
+
 ![img_9.png](img_9.png)
+
+![img_15.png](img_15.png)
 
 
 # How to Review a PR
