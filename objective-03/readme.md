@@ -94,7 +94,22 @@ Select one or more reviewers.  This immediately sends each reviewer an email wit
 ![img_8.png](img_8.png)
 
 
+## Code Review!
+Your reviewers may immediately approve your code, or ask for more information.
+They may also make suggestions.  There are two commenting features GitHub
+provides for this process. Broad or generic comments can be left via the comment box at
+the bottom of the Pull Request. Specific lines of code can be commented on by 
+clicking on the line of code.
+
+For more details on how to review, see [below](#wearing-the-reviewers-hat).
+
+(pic)
+
+(pic)
+
 ## Merge Your PR After Approval
+Once your discussions have been resolved, and your code reviewers have given their approval,
+you can merge your code.
 
 ![img_9.png](img_9.png)
 
