@@ -103,9 +103,9 @@ clicking on the line of code.
 
 For more details on how to review, see [below](#wearing-the-reviewers-hat).
 
-(pic)
+(put a pic here for the general comment)
 
-(pic)
+(and one here for the code comment)
 
 ## Merge Your PR After Approval
 Once your discussions have been resolved, and your code reviewers have given their approval,
