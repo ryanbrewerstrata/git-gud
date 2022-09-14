@@ -90,7 +90,7 @@ Running `git checkout -b rbrewer/GUD-1-well-named-branches` will create and chec
 
 There's some magic in that branch name, explained below:
 
-![img_1.png](img_1.png)
+![img_2.png](img_2.png)
 
 > **Putting a Jira ticket ID in your branch name links your work to Jira!!**
 > For example BEN-4030 would link to [this ticket on our Compare app](https://jira.sdt.local/browse/BEN-4030).
