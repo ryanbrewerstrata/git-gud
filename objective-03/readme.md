@@ -61,8 +61,8 @@ Fork the Git Gud repo.
 
 ## Find the Premade, Ready-To-PR Branch
 1. From your fork's home page, click "branches".
-2. Look for the `objective-3-demo` branch.
-2. Click "New pull request" on the `objective-3-demo` branch
+2. Look for the `objective-three-demo` branch.
+2. Click "New pull request" on the `objective-three-demo` branch
 
 > For the sake of this demo, **we're going to pretend
 > you created this branch, and are fully aware of the changes within it!**
