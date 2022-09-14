@@ -16,7 +16,7 @@ and compares beginnings.
 
 That is to say if your branch has a line that began in main as "x",
 and when you attempt to merge it was changed to "y",
-you'll get a `merge conflict`.
+your change is rejected, and causes a `merge conflict`.
 
 ![img_1.png](img_1.png)
 
