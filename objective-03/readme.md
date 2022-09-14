@@ -126,21 +126,13 @@ though you'll still need to delete your local branch manually.
 ![img_15.png](img_15.png)
 
 
-# How to Review a PR
-
 ## Wearing the Reviewer's Hat
 
-You'll inevitably be asked to review code,
-whether you feel qualified or not.
-Here are some helpful pointers for executing this responsibly.
+You'll inevitably be asked to review code whether you feel qualified or not.
+Here are some helpful pointers for doing this responsibly.
 
 1. **Protect your project's conventions.** Should SQL SELECT statements be one-liners? Are filenames kebab cased? No one likes a nitpick, but your team likely has some standards it wants to follow! A clean project is easier to maintain.
 2. **Ask clarifying questions.** GitHub allows you to discuss the PR from a distance using the general comments box. However, you can also comment on specific lines of code simply by clicking them.
 3. **Respect everyone's time.** You aren't expected to drop what you're doing and immediately review a PR. However, it's good not to make the author wait a half-week either! Just being mindful will go a long way.
 4. **Respect everyone's ability.** Everyone is at a different stage in their career.  If you need to scribble red ink all over a PR, strive to do it in a way that promotes growth.
 5. **What if you're not qualified?** Ask more questions, or possibly pass the baton to another reviewer.  Trusting your colleagues is also worth consideration, and you may decide some approvals don't require your complete understanding.
-
-
-## Citations
-* Good habits - [Atlassian blog](https://www.atlassian.com/blog/git/written-unwritten-guide-pull-requests)
-* Trusting peers - [todo]()
