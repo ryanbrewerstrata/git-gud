@@ -39,4 +39,4 @@
  * `merge` After a pull request is approved, it is merged into the main branch
 
 ## Tips & Tricks
- * Your code changes can be linked to JIRA tickets!  You do this by creating a branch with the Jira ticket id.  Eg,
+ * Your code changes can be linked to JIRA tickets!  You do this by creating a branch with the Jira ticket id. Eg, `feature/GUD-1-well-named-branches` where GUD-1 is a Jira Ticket ID. See [Objective 2](../objective-02/readme.md#how-to-create-a-well-named-branch) for details. 
