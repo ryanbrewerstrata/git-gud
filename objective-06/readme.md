@@ -1,4 +1,4 @@
-![img_4.png](img_4.png)
+![img.png](img.png)
 # Objective 6: GitFlow
 
 An introduction to one technique for managing software development life cycles.
